@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html class="theme-light">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Components Preview - LaunchKit</title>
+  <meta content="Preview of all LaunchKit components" name="description" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <!-- Favicon and icons -->
+  <link rel="icon" href="images/favicon/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="images/favicon/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="css/tablet.css" rel="stylesheet" type="text/css" />
+  <link href="css/mobile.css" rel="stylesheet" type="text/css" />
+  <script src="js/main.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <div class="background-gradient"></div>
+  <div class="page-container">
+    <header class="nav-container">
+      <a href="index.html" class="nav-brand"><img src="images/Logo-Template.svg" loading="lazy"
+          alt="Logo Template" /></a>
+      <nav role="navigation" class="nav-menu" data-navigation>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="components.html" class="nav-link">Components</a>
+        <div class="button-group stacked margin-top-l mobile-only">
+          <a href="#" class="button tertiary">Sign In</a>
+          <a href="#" class="button primary">Sign Up</a>
+        </div>
+      </nav>
+      <div class="button-group">
+        <a href="https://github.com" class="button ghost compact hide-on-mobile">
+          <div class="fa-brands fa-github icon l"></div>
+          <div class="paragraph s tertiary">42K</div>
+        </a>
+        <a href="#" class="button tertiary compact hide-on-mobile">Sign In</a>
+        <a href="#" class="button primary compact">Sign Up</a>
+        <button class="button ghost compact nav-hamburger" data-mobile-toggle>
+          <span class="fa-solid fa-bars icon m"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Typography Section -->
+      <section>
+        <div class="heading centered">
+          <h1 class="no-top-margin">Components Preview</h1>
+          <p class="paragraph m secondary">
+            A comprehensive showcase of all available UI components in LaunchKit
+          </p>
+        </div>
+      </section>
+
+      <!-- Typography -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Typography</h2>
+          <p class="paragraph m secondary">
+            Headings, paragraphs, and text styles available in the design system
+          </p>
+        </div>
+        
+        <div class="feature-card">
+          <h3 class="no-top-margin">Headings</h3>
+          <h1>Heading 1 - Main page title</h1>
+          <h2>Heading 2 - Section title</h2>
+          <h3>Heading 3 - Subsection title</h3>
+          <h4>Heading 4 - Small heading</h4>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Paragraph Styles</h3>
+          <p class="paragraph s">Small paragraph text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="paragraph m">Medium paragraph text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="paragraph l">Large paragraph text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="paragraph xl">Extra large paragraph text - Lorem ipsum dolor sit amet.</p>
+          <p class="paragraph m bold">Bold paragraph text - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">UI Text Styles</h3>
+          <p class="ui s">Small UI text</p>
+          <p class="ui m">Medium UI text</p>
+          <p class="ui s pseudo-link">Pseudo link text</p>
+          <p class="secondary">Secondary text color</p>
+          <p class="tertiary">Tertiary text color</p>
+          <p class="color-accent">Accent color text</p>
+          <p>Text with <span class="inline-code">inline code</span> styling</p>
+        </div>
+      </section>
+
+      <!-- Buttons -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Buttons</h2>
+          <p class="paragraph m secondary">
+            Various button styles and configurations
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Button Types</h3>
+          <div class="button-group">
+            <a href="#" class="button primary">Primary Button</a>
+            <a href="#" class="button secondary">Secondary Button</a>
+            <a href="#" class="button tertiary">Tertiary Button</a>
+            <a href="#" class="button ghost">Ghost Button</a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Compact Buttons</h3>
+          <div class="button-group">
+            <a href="#" class="button primary compact">Primary Compact</a>
+            <a href="#" class="button secondary compact">Secondary Compact</a>
+            <a href="#" class="button tertiary compact">Tertiary Compact</a>
+            <a href="#" class="button ghost compact">Ghost Compact</a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Buttons with Icons</h3>
+          <div class="button-group">
+            <a href="#" class="button primary">
+              <div class="fa-solid fa-download icon m"></div>
+              Download
+            </a>
+            <a href="#" class="button secondary">
+              <div class="fa-solid fa-play icon m"></div>
+              Play Video
+            </a>
+            <a href="#" class="button tertiary">
+              <div class="fa-solid fa-external-link icon m"></div>
+              External Link
+            </a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Button Groups</h3>
+          <div class="button-group centered">
+            <a href="#" class="button primary">Get Started</a>
+            <a href="#" class="button tertiary">Learn More</a>
+          </div>
+          
+          <div class="button-group stacked">
+            <a href="#" class="button primary">Stacked Primary</a>
+            <a href="#" class="button secondary">Stacked Secondary</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Icons -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Icons</h2>
+          <p class="paragraph m secondary">
+            Icon sizes and styles using Font Awesome
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Icon Sizes</h3>
+          <div class="button-group">
+            <div class="fa-solid fa-star icon s"></div>
+            <div class="fa-solid fa-star icon m"></div>
+            <div class="fa-solid fa-star icon l"></div>
+            <div class="fa-solid fa-star icon xl"></div>
+          </div>
+          <p class="paragraph s secondary">Small, Medium, Large, Extra Large</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Icon Examples</h3>
+          <div class="button-group">
+            <div class="fa-regular fa-gem icon xl color-accent"></div>
+            <div class="fa-solid fa-heart icon xl color-accent"></div>
+            <div class="fa-regular fa-star icon xl color-accent"></div>
+            <div class="fa-solid fa-rocket icon xl color-accent"></div>
+            <div class="fa-solid fa-shield icon xl color-accent"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Links -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Links</h2>
+          <p class="paragraph m secondary">
+            Different link styles and configurations
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Basic Links</h3>
+          <p class="paragraph m">
+            This is a paragraph with a <a href="#">regular link</a> and a 
+            <a href="#" class="tertiary">tertiary link</a> inside it.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Icon Links</h3>
+          <div class="link-list">
+            <a href="#" class="icon-link">
+              <div class="fa-brands fa-github icon m color-accent"></div>
+              <div class="pseudo-link">GitHub Repository</div>
+            </a>
+            <a href="#" class="icon-link">
+              <div class="fa-brands fa-linkedin icon m color-accent"></div>
+              <div class="pseudo-link">LinkedIn Profile</div>
+            </a>
+            <a href="#" class="icon-link">
+              <div class="fa-brands fa-x-twitter icon m color-accent"></div>
+              <div class="pseudo-link">Twitter/X</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Horizontal Link List</h3>
+          <div class="link-list-horizontal">
+            <a href="#" class="ui s tertiary">Privacy Policy</a>
+            <a href="#" class="ui s tertiary">Terms of Service</a>
+            <a href="#" class="ui s tertiary">Cookie Policy</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Cards</h2>
+          <p class="paragraph m secondary">
+            Various card layouts and styles
+          </p>
+        </div>
+
+        <div class="grid columns-2">
+          <div class="feature-card">
+            <h3 class="color-accent no-top-margin">Feature Card</h3>
+            <p class="paragraph s secondary">
+              This is a standard feature card with a colored heading and secondary text.
+            </p>
+            <img src="images/placeholder-feature-16-9.png" loading="lazy" width="100%" alt="Feature screenshot" />
+          </div>
+          
+          <div class="feature-card">
+            <h3 class="color-accent no-top-margin">Another Feature</h3>
+            <p class="paragraph s secondary">
+              Cards can contain various types of content including images, text, and buttons.
+            </p>
+            <div class="button-group">
+              <a href="#" class="button secondary compact">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Code Block Card</h3>
+          <div class="card-code-block dark">
+            <pre class="shiki github-dark-default" style="margin: 0px; color: #e6edf3" tabindex="0"><code><span class="line"><span style="color:#8B949E"># Example configuration</span></span>
+<span class="line"><span style="color:#7EE787">name</span><span style="color:#E6EDF3">: </span><span style="color:#A5D6FF">LaunchKit</span></span>
+<span class="line"><span style="color:#7EE787">version</span><span style="color:#E6EDF3">: </span><span style="color:#A5D6FF">2.0.0</span></span>
+<span class="line"><span style="color:#7EE787">description</span><span style="color:#E6EDF3">: </span><span style="color:#A5D6FF">Free template for dev tools</span></span></code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards with Icons -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Cards with Icons</h2>
+          <p class="paragraph m secondary">
+            Icon-based cards for features and benefits
+          </p>
+        </div>
+
+        <div class="cards-with-icons-container">
+          <div class="card-with-icon">
+            <div class="fa-regular fa-gem icon xl color-accent"></div>
+            <div class="feature-heading">
+              <p class="paragraph m bold">Premium Quality</p>
+              <p class="paragraph m secondary">
+                High-quality components designed with attention to detail
+              </p>
+            </div>
+          </div>
+          
+          <div class="card-with-icon">
+            <div class="fa-solid fa-rocket icon xl color-accent"></div>
+            <div class="feature-heading">
+              <p class="paragraph m bold">Fast Performance</p>
+              <p class="paragraph m secondary">
+                Optimized for speed and excellent user experience
+              </p>
+            </div>
+          </div>
+          
+          <div class="card-with-icon">
+            <div class="fa-solid fa-shield icon xl color-accent"></div>
+            <div class="feature-heading">
+              <p class="paragraph m bold">Secure & Reliable</p>
+              <p class="paragraph m secondary">
+                Built with security best practices and reliability in mind
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grid Layouts -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Grid Layouts</h2>
+          <p class="paragraph m secondary">
+            Different grid configurations for content layout
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Two Columns</h3>
+          <div class="grid columns-2">
+            <div class="feature-card">
+              <p class="paragraph m bold">Column 1</p>
+              <p class="paragraph s secondary">Content in the first column</p>
+            </div>
+            <div class="feature-card">
+              <p class="paragraph m bold">Column 2</p>
+              <p class="paragraph s secondary">Content in the second column</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Three Columns</h3>
+          <div class="grid columns-3">
+            <div class="feature-card">
+              <p class="paragraph m bold">Column 1</p>
+              <p class="paragraph s secondary">First column content</p>
+            </div>
+            <div class="feature-card">
+              <p class="paragraph m bold">Column 2</p>
+              <p class="paragraph s secondary">Second column content</p>
+            </div>
+            <div class="feature-card">
+              <p class="paragraph m bold">Column 3</p>
+              <p class="paragraph s secondary">Third column content</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">1/2 - 1 Layout</h3>
+          <div class="grid columns-1/2-1">
+            <div class="feature-card">
+              <p class="paragraph m bold">Narrow Column</p>
+              <p class="paragraph s secondary">This column takes up 1/2 of the space</p>
+            </div>
+            <div class="feature-card">
+              <p class="paragraph m bold">Wide Column</p>
+              <p class="paragraph s secondary">This column takes up the full remaining space</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accordion -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Accordion</h2>
+          <p class="paragraph m secondary">
+            Collapsible content sections
+          </p>
+        </div>
+
+        <div class="accordion-container">
+          <details class="accordion-item" name="demo">
+            <summary class="accordion-toggle">
+              <p class="paragraph m bold">What is LaunchKit?</p>
+              <span class="accordion-chevron fa-solid fa-chevron-down"></span>
+            </summary>
+            <div class="accordion-content">
+              <p>
+                LaunchKit is a free HTML landing page template specifically designed for developer tools and open source projects. It provides a ready-to-deploy solution with customizable components.
+              </p>
+            </div>
+          </details>
+
+          <details class="accordion-item" name="demo">
+            <summary class="accordion-toggle">
+              <p class="paragraph m bold">How do I customize the colors?</p>
+              <span class="accordion-chevron fa-solid fa-chevron-down"></span>
+            </summary>
+            <div class="accordion-content">
+              <p>
+                You can customize colors by updating CSS variables in the index.css file, or by switching between light and dark themes using the theme-dark class.
+              </p>
+            </div>
+          </details>
+
+          <details class="accordion-item" name="demo">
+            <summary class="accordion-toggle">
+              <p class="paragraph m bold">Is it mobile responsive?</p>
+              <span class="accordion-chevron fa-solid fa-chevron-down"></span>
+            </summary>
+            <div class="accordion-content">
+              <p>
+                Yes! LaunchKit is fully responsive and includes dedicated CSS files for tablet and mobile breakpoints to ensure optimal viewing on all devices.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Utility Classes -->
+      <section>
+        <div class="heading">
+          <h2 class="no-top-margin">Utility Classes</h2>
+          <p class="paragraph m secondary">
+            Helper classes for common styling needs
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Eyebrow</h3>
+          <a href="#" class="eyebrow">New Feature Available!</a>
+          <p class="paragraph m secondary">Eyebrow components are great for announcements</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Spacing Utilities</h3>
+          <p class="paragraph m">Normal margin</p>
+          <p class="paragraph m margin-top-l">Large top margin</p>
+          <p class="paragraph m margin-top-xl">Extra large top margin</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Width Utilities</h3>
+          <div class="button full-width">Full Width Button</div>
+        </div>
+
+        <div class="feature-card text-centered">
+          <h3 class="no-top-margin">Text Alignment</h3>
+          <p class="paragraph m">This content is centered using the text-centered class</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="no-top-margin">Balanced Text</h3>
+          <p class="paragraph l balanced">
+            This text uses the balanced class to create more visually appealing line breaks in headings and important text
+          </p>
+        </div>
+      </section>
+
+      <!-- Theme Toggle Demo -->
+      <section>
+        <div class="heading centered">
+          <h2 class="no-top-margin">Theme Toggle</h2>
+          <p class="paragraph m secondary">
+            Switch between light and dark themes
+          </p>
+          <div class="button-group">
+            <button class="button secondary" onclick="document.documentElement.className='theme-light'">Light Theme</button>
+            <button class="button secondary" onclick="document.documentElement.className='theme-dark'">Dark Theme</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="promo-cta">
+        <div class="heading centered">
+          <h2>Ready to use LaunchKit?</h2>
+          <p class="paragraph m">
+            Start building your developer tool landing page today
+          </p>
+          <div class="button-group margin-paragraph centered">
+            <a href="index.html" class="button primary">View Homepage</a>
+            <a href="https://github.com" class="button tertiary">Get on GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-menu">
+        <div>
+          <p class="paragraph s">
+            © 2025 LoremIpsumInc<br />By <a href="https://evilmartians.com" target="_blank">Evil Martians</a>, product
+            consulting for
+            developer tools<br />Built with <a href="https://launchkit.evilmartians.io" target="_blank">LaunchKit</a>
+          </p>
+        </div>
+        <div>
+          <div class="link-list">
+            <a href="pricing.html" class="ui s">Pricing</a>
+            <a href="licenses.html" class="ui s">Licenses</a>
+            <a href="components.html" class="ui s">Components</a>
+            <a href="https://mintlify.com" class="ui s" target="_blank">Docs ↗</a>
+            <a href="https://substack.com" class="ui s" target="_blank">Blog ↗</a>
+          </div>
+        </div>
+        <div>
+          <div class="link-list">
+            <a href="https://github.com" class="icon-link ui s" target="_blank">
+              <div class="fa-brands fa-github icon m color-accent"></div>
+              <div class="pseudo-link">GitHub</div>
+            </a>
+            <a href="https://www.linkedin.com" class="icon-link ui s" target="_blank">
+              <div class="fa-brands fa-linkedin icon m color-accent"></div>
+              <div class="pseudo-link">LinkedIn</div>
+            </a>
+            <a href="https://x.com" class="icon-link ui s" target="_blank">
+              <div class="fa-brands fa-x-twitter icon m color-accent"></div>
+              <div class="pseudo-link">X.com</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="link-list-horizontal">
+        <a href="#" class="ui s tertiary">Privacy Policy</a>
+        <a href="#" class="ui s tertiary">Terms of Service</a>
+        <a href="#" class="ui s tertiary">Cookie Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
